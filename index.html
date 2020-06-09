@@ -1,31 +1,62 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title of the document</title>
-  </head>
-  <body>
-    <h1>
-      HTML Demo
-    </h1>
-    <p>
-      The name "index.html" is used as a default page by web servers. That's what we're serving when the url received is '/', i.e. the request URL is just the bare domain (e.g. 'localhost' and the port).
-    </p>
-    <p>
-      Some more examples in this demo:
-      <ul>
-        <li>
-          <a href="html_serve/simple.html">
-          Simple example</a> (just some HTML structured with divs)
-        </li>
-        <li>
-          <a href="html_serve/styled.html">
-          Styled example</a> (HTML with CSS)
-        </li>
-        <li>
-          <a href="html_serve/scripts.html">
-          Scripts example</a> (JS & JQuery)
-        </li>
-      </ul>
-    </p>
-  </body>
+    <head>
+        <title>zack katancik</title>
+        <link href="/css/mainstyle.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
+    </head>
+    <body style="background-color:#FDFCDC;">
+        <div class="navbar">
+            <div class="leftalign">
+                <a href="index.html">zack katancik</a>
+            </div>
+            <div class="rightalign">
+                <a href="html/about.html">about</a>
+                <a href="html/projects.html">projects</a>
+                <a href="https://github.ccs.neu.edu/NEU-CS5610-SU20/PersonalWebsite-ZacharyKatancik" target="_blank">github</a>
+            </div>
+        </div>
+        <div class="bodytext">
+            <p>I'm Zack Katancik,</p>
+            <p>a Seattle-based Computer Science</p>
+            <p>Master's Student. Come see</p>
+            <a href="html/projects.html">my work!</a>        
+        </div>
+        <div class="opaccode">
+            <p>[</p>
+            <p>      '{{repeat(5, 7)}}',</p>
+            <p>      {</p>
+            <p>        _id: '{{objectId()}}',</p>
+            <p>        index: '{{index()}}',</p>
+            <p>        balance: '{{floating(1000, 4000, 2,</p>
+            <p>"$0,0.00")}}',</p>
+            <p>        picture: 'http://placehold.it/32x32'</p>
+            <p>        age: '{{integer(20, 40)}}',</p>
+            <p>        eyeColor: '{{random("blue", "brown", "green")}}',</p>
+            <p>        address: '{{integer(100, 999)}} {{street()}},</p>
+            <p>{{city()}}, {{state()}}, {{integer(100, 10000)}}'</p>
+            <p>        about: '{{lorem(1, "paragraphs")}}',</p>
+            <p>        registered: '{{date(new Date(2014, 0, 1), new</p>
+            <p>Date(), "YYYY-MM-ddThh:mm:ss Z")}}',</p>
+            <p>        latitude: '{{floating(-90.000001, 90)}}',</p>
+            <p>        longitude: '{{floating(-180.000001, 180)}}',</p>
+            <p>        tags: [</p>
+            <p>          '{{repeat(7)}}',</p>
+            <p>          '{{lorem(1, "words")}}'</p>
+            <p>        ],</p>
+            <p>        friends: [</p>
+            <p>          '{{repeat(3)}}',</p>
+            <p>          {</p>
+            <p>            id: '{{index()}}',</p>
+            <p>            name: '{{firstName()}} {{surname()}}'</p>
+            <p>          }</p>
+            <p>        ],</p>
+            <p>        greeting: function (tags) {</p>
+            <p>          return 'Hello, ' + this.name + '! You have ' +</p>
+            <p>tags.integer(1, 10) + ' unread messages.';</p>
+            <p>        },</p>
+            <p>      }</p>
+            <p>}</p>
+        </div>
+    </body>
 </html>
