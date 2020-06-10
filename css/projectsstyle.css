@@ -15,7 +15,7 @@
 
 .title {
     color: #0081A7;
-    margin-bottom: 4px;
+    margin-bottom: 0px;
 }
 
 table {
@@ -26,12 +26,14 @@ table {
 .tad {
     font-size: 13px;
     margin: 0px;
+    padding-bottom: 8px;
 }
 
 .description {
-    margin: 3px;
+    line-height: 2px;
     font-size: 13px;
     margin-top: 5px;
+    padding-left: 20px;
 }
 
 .bigtext {
@@ -41,7 +43,7 @@ table {
     font-weight: 900;
     right: 0;
     padding-right: 20px;
-    padding-top: 100px;
+    padding-top: 80px;
     color: #F07167;
     font-size: 147px;
 }
