@@ -2,6 +2,9 @@
 
 ## Elements to satisfy the rubric
 
+### Link
+https://desolate-headland-74568.herokuapp.com/index.html
+
 ### Pages
 As seen in the screenshots below, the site has a landing page, index.html. 
 
