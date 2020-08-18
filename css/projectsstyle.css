@@ -25,15 +25,15 @@ table {
 
 .tad {
   font-size: 13px;
-  margin: 5px;
+  margin: 0px;
   padding-bottom: 8px;
 }
 
 .description {
-  line-height: 2px;
   font-size: 13px;
-  margin: 5px;
+  margin-top: 5px;
   padding-left: 20px;
+  padding-right: 20px;
 }
 
 .bigtext {
@@ -43,7 +43,7 @@ table {
   font-weight: 900;
   right: 0;
   padding-right: 20px;
-  padding-top: 80px;
+  padding-bottom: 10px;
   color: #f07167;
-  font-size: 147px;
+  font-size: 110px;
 }
