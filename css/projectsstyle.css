@@ -1,49 +1,49 @@
 .resume {
-    position: absolute;
-    z-index: 5;
-    font-family: 'Open Sans', sans-serif;
-    color: #00AFB9;
-    margin-left: 30px;
-    font-size: 15px;
+  position: absolute;
+  z-index: 5;
+  font-family: "Open Sans", sans-serif;
+  color: #00afb9;
+  margin-left: 30px;
+  font-size: 15px;
 }
 
 .header {
-    font-weight: bolder;
-    color: #0081A7;
-    font-size: 18px;
+  font-weight: bolder;
+  color: #0081a7;
+  font-size: 18px;
 }
 
 .title {
-    color: #0081A7;
-    margin-bottom: 0px;
+  color: #0081a7;
+  margin-bottom: 0px;
 }
 
 table {
-    border-collapse: separate;
-    border-spacing: 25px 5px;
+  border-collapse: separate;
+  border-spacing: 25px 5px;
 }
 
 .tad {
-    font-size: 13px;
-    margin: 0px;
-    padding-bottom: 8px;
+  font-size: 13px;
+  margin: 5px;
+  padding-bottom: 8px;
 }
 
 .description {
-    line-height: 2px;
-    font-size: 13px;
-    margin-top: 5px;
-    padding-left: 20px;
+  line-height: 2px;
+  font-size: 13px;
+  margin: 5px;
+  padding-left: 20px;
 }
 
 .bigtext {
-    position: absolute;
-    z-index: 1;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
-    right: 0;
-    padding-right: 20px;
-    padding-top: 80px;
-    color: #F07167;
-    font-size: 147px;
+  position: absolute;
+  z-index: 1;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  right: 0;
+  padding-right: 20px;
+  padding-top: 80px;
+  color: #f07167;
+  font-size: 147px;
 }
