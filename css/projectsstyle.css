@@ -18,6 +18,31 @@
   margin-bottom: 0px;
 }
 
+.titlelink a {
+  color: #0081a7;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: light;
+  margin-bottom: 0px;
+}
+
+.titlelink a:hover {
+  font-style: italic;
+  font-weight: light;
+  margin-bottom: 0px;
+}
+
+.titlelink a:active {
+  font-style: italic;
+  font-weight: light;
+  margin-bottom: 0px;
+}
+
+.titlelink a:visited {
+  font-weight: light;
+  margin-bottom: 0px;
+}
+
 table {
   border-collapse: separate;
   border-spacing: 25px 5px;
@@ -46,4 +71,31 @@ table {
   padding-bottom: 10px;
   color: #f07167;
   font-size: 110px;
+}
+
+.titlelink {
+  color: #0081a7;
+  margin-bottom: 0px;
+  text-decoration: none;
+}
+
+div.titlelink a {
+  color: #f07167;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+div.titlelink a:hover {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+div.titlelink a:active {
+  font-style: italic;
+  font-weight: bolder;
+}
+
+div.titlelink a:visited {
+  font-weight: bolder;
 }
