@@ -3,7 +3,7 @@
 ## Elements to satisfy the rubric
 
 ### Link
-https://desolate-headland-74568.herokuapp.com/index.html
+https://zkatancik-personal-website.herokuapp.com/
 
 ### Pages
 As seen in the screenshots below, the site has a landing page, index.html. 
