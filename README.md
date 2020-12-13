@@ -3,7 +3,7 @@
 ## Elements to satisfy the rubric
 
 ### Link
-https://zkatancik-personal-website.herokuapp.com/
+https://katancik.com/
 
 ### Pages
 As seen in the screenshots below, the site has a landing page, index.html. 
