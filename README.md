@@ -1,7 +1,5 @@
 # PersonalWebsite-ZacharyKatancik
 
-## Elements to satisfy the rubric
-
 ### Link
 https://katancik.com/
 
